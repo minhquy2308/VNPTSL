@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mytest">
    <application
-        android:label="VNPT Sơn La"
+        android:label="QLMT VNPT Sơn La"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

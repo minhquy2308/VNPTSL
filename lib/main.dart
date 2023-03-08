@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.only(bottom: 8),
                     child: const Text(
-                      'Ứng dụng CNTT VNPT Sơn La',
+                      'Ứng dụng QLMT VNPT Sơn La',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                       ),
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
     );
-    final Uri _url = Uri.parse('https://quytm.000webhostapp.com/login/');
+    final Uri _url = Uri.parse('https://qlmt.noibo.vnptsonla.com/');
     Future<void> _launchUrl() async {
       if (!await launchUrl(_url)) {
         throw 'Could not launch $_url';
@@ -70,12 +70,6 @@ class MyApp extends StatelessWidget {
           sliver: SliverList(
             delegate: SliverChildListDelegate(
               <Widget>[
-                const Text("BẢO DƯỠNG HẠ TẦNG"),
-                const Text('Media'),
-                const Text('Quản lý phương tiện'),
-                const Text('Báo Cáo Phát Triển Thuê Bao'),
-                const Text('CACTI'),
-                const Text('Khảo sát CNTT'),
               ],
             ),
           ),
